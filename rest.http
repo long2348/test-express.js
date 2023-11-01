@@ -1,0 +1,19 @@
+GET http://localhost:8084/user
+
+###
+GET http://localhost:8084/all-user
+
+###
+GET http://localhost:8084/singleuser/63296ccf7ec9cf03c43f16cc
+
+###
+POST http://localhost:8084/user
+
+###
+POST http://localhost:8084/create-user
+
+###
+PUT http://localhost:8084/singleuser/:Id
+
+###
+DELETE http://localhost:8084/singleuser/63296ccf7ec9cf03c43f16cc
